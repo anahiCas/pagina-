@@ -1,0 +1,194 @@
+/* Estilos para AutoNova */
+
+/* Estructura General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+  
+  /* Navegación */
+nav {
+    background-color: #001f3f;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+  
+.menu {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+  
+.menu:hover {
+    color: #007bff;
+}
+  
+  /* Títulos */
+.title1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #001f3f;
+    margin: 2rem 0;
+}
+  
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+  
+  /* Textos */
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+.texto2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+  
+  /* Contenedor de Productos */
+.contenedor {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+}
+  
+.imagen {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+  
+.imagen:hover {
+    transform: scale(1.05);
+}
+  
+.img_imagen1, .img_imagen2, .img_imagen3 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: transparent;
+}
+  
+.Descripcion_imagen {
+    padding: 1rem;
+}
+  
+a {
+    text-decoration: none;
+    color: #001f3f;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 2px solid #001f3f;
+    border-radius: 5px;
+    
+}
+  
+a:hover {
+    background-color: #001f3f;
+    color: white;
+  }
+  
+  /* Marcas */
+.marcas {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+}
+  
+.card {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+}
+  
+.card img {
+  width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: transparent;
+}
+  
+.card p {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+  
+.card a {
+    text-decoration: none;
+    color: #001f3f;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 2px solid #001f3f;
+    border-radius: 5px;
+}
+  
+.card a:hover {
+    background-color: #001f3f;
+    color: white;
+}
+  
+  /* Responsivo */
+@media (min-width: 1024px) {
+    .contenedor{
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contenedor{
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+  @media (max-width: 767px) {
+    .contenedor {
+      grid-template-columns: 1fr;
+    }
+}  
+  /* Redes Sociales */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #001f3f;
+    color: white;
+}
+  
+footer a {
+    color: white;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+  
+footer a:hover {
+    color: #007bff;
+  }
+  

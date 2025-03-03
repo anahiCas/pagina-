@@ -1,0 +1,97 @@
+/* Estilos para la página Marcas */
+
+/* Estructura General */
+body {
+    display: grid;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+  
+  /* Contenedor de Marcas */
+.marcas {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    text-align: justify;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    padding: 1rem;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: transparent;
+}
+  
+.card p {
+    padding: 1rem;
+}
+  
+.Descripcion_imagen {
+    text-align: justify;
+    padding: 1rem;
+}
+  
+a {
+    text-decoration: none;
+    color: #001f3f;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 2px solid #001f3f;
+    border-radius: 5px;
+}
+  
+a:hover {
+    background-color: #001f3f;
+    color: white;
+}
+
+  
+  /* Responsivo */
+@media (min-width: 1024px) {
+    .marcas {
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1023px) {
+    .marcas {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+@media (max-width: 767px) {
+    .marcas {
+      grid-template-columns: 1fr;
+    }
+}
+  
+  /* Enlaces de Navegación */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 1rem;
+    
+}
+  
+nav a:hover {
+    color: #007bff;
+}
+  

@@ -1,0 +1,160 @@
+/* Estilos para la página de Contacto */
+
+/* Estructura General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+  
+  /* Contenedor Contacto */
+.Contacto {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+.redes {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+.planes {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+.servicio {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+.honda {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+.ford {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+.vw {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.imgr {
+    display: block;
+    margin: 0 auto;
+}
+.imgp {
+  display: block;
+  margin: 0 auto;
+}
+.imgs {
+  display: block;
+  margin: 0 auto;
+}
+.marcas {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.imgh {
+  display: block;
+  margin: 0 auto;
+}
+.imgf {
+display: block;
+margin: 0 auto;
+}
+.imgv {
+display: block;
+margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 2rem;
+    transition: transform 0.3s;
+}
+  
+.card:hover {
+    transform: scale(1.03);
+  }
+  
+.card img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+  
+.card p {
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.6;
+}
+  
+a {
+    text-decoration: none;
+    color: #001f3f;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 2px solid #001f3f;
+    border-radius: 5px;
+}
+  
+a:hover {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+}
+  
+  /* Responsivo */
+@media (min-width: 1024px) {
+    .Contacto {
+      padding: 3rem;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card {
+      padding: 1.5rem;
+    }
+}
+  
+@media (max-width: 767px) {
+    .card {
+      padding: 1rem;
+    }
+    .card img {
+      width: 100%;
+    }
+}
+  
